@@ -20,6 +20,7 @@ def logout():
 
 if not st.session_state["token"]:
     st.title("DocsInsight AI")
+    st.markdown("Welcome to **DocsInsight AI**! Upload your PDF documents and ask questions to get instant, AI-powered answers using Google Gemini. Please log in or register to get started.")
     tab1, tab2 = st.tabs(["Login", "Register"])
     
     with tab1:
@@ -90,6 +91,7 @@ else:
     
     # Main Area: Chat Interface
     st.title("Chat with your PDFs")
+    st.markdown("Ask anything about the documents you've uploaded. The AI will read through your PDFs and find the exact answers you need.")
     
     # Session handling
     if st.session_state["current_session_id"] is None:
