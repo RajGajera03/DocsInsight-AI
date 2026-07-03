@@ -1,6 +1,6 @@
 import requests
 
-BASE_URL = "http://127.0.0.1:8000/api"
+BASE_URL = "https://docsinsight-ai.onrender.com"
 
 def login(email, password):
     # OAuth2 Password Request Form needs x-www-form-urlencoded
