@@ -19,8 +19,8 @@ A production-ready, full-stack Retrieval-Augmented Generation (RAG) application 
 
 1. **Clone the repository:**
    ```powershell
-   git clone <your-repo-url>
-   cd "DocsInsight AI"
+   git clone https://github.com/RajGajera03/DocsInsight-AI.git
+   cd DocsInsight-AI
    ```
 
 2. **Set up the virtual environment:**
